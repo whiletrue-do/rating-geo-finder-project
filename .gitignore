@@ -24,6 +24,7 @@ var/
 
 # Configurations
 config/*.ini
+*/config/config.ini
 
 # Unit test / coverage reports
 htmlcov/
@@ -38,3 +39,4 @@ coverage.xml
 # IDEs
 .idea/
 .vscode/
+
