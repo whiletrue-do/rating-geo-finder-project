@@ -1,7 +1,0 @@
-README.md
-pyproject.toml
-setup.cfg
-rating_geo_finder.egg-info/PKG-INFO
-rating_geo_finder.egg-info/SOURCES.txt
-rating_geo_finder.egg-info/dependency_links.txt
-rating_geo_finder.egg-info/top_level.txt
