@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+
+[metadata]
+name = "rating-geo-finder"
+version = "0.1.0"
+description = "My awesome project"
+authors = ["whiletd@gmail.com"]
+
+[options]
+packages = find:
+
