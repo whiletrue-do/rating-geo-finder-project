@@ -23,8 +23,7 @@ var/
 *.egg
 
 # Configurations
-config/*.ini
-*/config/config.ini
+.env
 
 # Unit test / coverage reports
 htmlcov/
