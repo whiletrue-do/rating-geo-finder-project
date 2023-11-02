@@ -23,9 +23,3 @@ def search_for_places(search_text: str):
         return response.json()
     else:
         return f"Error: {response}"
-
-
-
-
-
-print(search_for_places("chinese restaurant in shoreditch, london"))
