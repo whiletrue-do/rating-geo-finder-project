@@ -12,7 +12,7 @@ def test_with_valid_parameters():
 
 def test_with_valid_parameters():
     valid_parameters = {
-        "testpytest": 5,
+        "maxResultCount": 5,
         "minRating": 3.5
     }
     assert google_places_parameter_validation(valid_parameters) is False
