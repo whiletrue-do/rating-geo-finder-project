@@ -33,3 +33,5 @@ def search_for_places(search_text: str):
     except requests.exceptions.ConnectionError as error:
         logger.error(f"a connection error has occurred {error}")
         logger.info(f"Connection error response {response.status_code} - {response.text}")
+    except requests.exceptions.RequestException as error:
+        logger.error(f"unknown caught error please read -> {error}")
