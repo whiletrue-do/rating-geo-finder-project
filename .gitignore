@@ -39,3 +39,8 @@ coverage.xml
 .idea/
 .vscode/
 
+# pytest 
+.pytest*
+
+# ignore log files
+*log
